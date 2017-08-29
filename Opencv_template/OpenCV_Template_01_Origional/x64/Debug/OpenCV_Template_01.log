@@ -1,0 +1,9 @@
+﻿Build started 11/08/2016 1:14:48 PM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2015\rsd\Opencv_template\OpenCV_Template_01_Origional\OpenCV_Template_01.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         OpenCV_Template_01.vcxproj -> C:\Users\Josh\Documents\Visual Studio 2015\rsd\Opencv_template\OpenCV_Template_01_Origional\x64\Debug\OpenCV_Template_01.exe
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2015\rsd\Opencv_template\OpenCV_Template_01_Origional\OpenCV_Template_01.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04

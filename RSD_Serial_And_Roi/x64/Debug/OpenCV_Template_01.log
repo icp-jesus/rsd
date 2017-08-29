@@ -1,0 +1,40 @@
+﻿Build started 9/09/2016 8:17:48 PM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2015\rsd\RSD_Serial_And_Roi\OpenCV_Template_01.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:/OpenCV-3.1.0/opencv/build/x64/vc14/lib" /I"C:/OpenCV-3.1.0/opencv/build/include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /errorReport:prompt /clr:nostdlib CannyStill_1.cpp
+         CannyStill_1.cpp
+     1>CannyStill_1.cpp(232): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>CannyStill_1.cpp(233): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>CannyStill_1.cpp(280): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>CannyStill_1.cpp(382): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>CannyStill_1.cpp(383): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>CannyStill_1.cpp(498): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>CannyStill_1.cpp(499): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>CannyStill_1.cpp(500): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>CannyStill_1.cpp(501): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>CannyStill_1.cpp(502): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>CannyStill_1.cpp(503): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\opencv-3.1.0\opencv\build\include\opencv2\core\cvstd.hpp(599): warning C4793: 'cv::String::String': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>c:\opencv-3.1.0\opencv\build\include\opencv2\core\mat.inl.hpp(392): warning C4793: 'cv::Mat::Mat': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>c:\opencv-3.1.0\opencv\build\include\opencv2\core\mat.inl.hpp(681): warning C4793: 'cv::Mat::release': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>c:\opencv-3.1.0\opencv\build\include\opencv2\core\mat.inl.hpp(1872): warning C4793: 'cv::SparseMat::addref': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>c:\opencv-3.1.0\opencv\build\include\opencv2\core\mat.inl.hpp(3473): warning C4793: 'cv::UMat::addref': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>c:\opencv-3.1.0\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: 'cv::detail::PtrOwner::incRef': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>c:\opencv-3.1.0\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: 'cv::detail::PtrOwner::decRef': function compiled as native:
+         	Found an intrinsic not supported in managed code
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Josh\Documents\Visual Studio 2015\rsd\RSD_Serial_And_Roi\x64\Debug\OpenCV_Template_01.exe" /INCREMENTAL /NOLOGO opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Josh\Documents\Visual Studio 2015\rsd\RSD_Serial_And_Roi\x64\Debug\OpenCV_Template_01.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\CannyStill_1.obj
+         x64\Debug\stdafx.obj
+         "x64\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         OpenCV_Template_01.vcxproj -> C:\Users\Josh\Documents\Visual Studio 2015\rsd\RSD_Serial_And_Roi\x64\Debug\OpenCV_Template_01.exe
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2015\rsd\RSD_Serial_And_Roi\OpenCV_Template_01.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.03
